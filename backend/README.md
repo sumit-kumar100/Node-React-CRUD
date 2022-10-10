@@ -1,7 +1,6 @@
-## To Run this Project via NPM follow below:
+## To Run this Project via YARN follow below:
 
 ```bash
-npm install
-npm run dev
+yarn install
+node app.js
 ```
-
