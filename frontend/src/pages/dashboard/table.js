@@ -47,15 +47,18 @@ const StudentList = ({ getData, data, setEdit }) => {
         },
         {
             name: 'Name',
-            selector: (row) => row?.firstName + " " +row?.lastName
+            selector: (row) => row?.firstName + " " + row?.lastName,
+            sortable: true
         },
         {
             name: 'City',
-            selector: (row) => row?.city
+            selector: (row) => row?.city,
+            sortable: true
         },
         {
             name: 'Subjects',
-            selector: (row) => row?.subjects?.length
+            selector: (row) => row?.subjects?.length,
+            sortable: true
         },
         {
             name: 'Status',
@@ -63,7 +66,8 @@ const StudentList = ({ getData, data, setEdit }) => {
         },
         {
             name: 'Std',
-            selector: (row) => row?.standard
+            selector: (row) => row?.standard,
+            sortable: true
         },
         {
             name: "Edit",
