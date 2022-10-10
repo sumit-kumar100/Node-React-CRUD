@@ -1,4 +1,3 @@
-# Node-React-CRUD
+# Node-React-CRUD (Frontend && Backend)
 
-Frontend && Backend
 RUN COMMAND : yarn install
